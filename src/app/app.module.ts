@@ -10,6 +10,7 @@ import { SplashScreen } from '@ionic-native/splash-screen';
 import { UsersPage } from '../pages/users/users';
 import { ReposPage } from '../pages/repos/repos';
 import { OrganisationsPage } from '../pages/organisations/organisations';
+import { UserDetailsPage } from '../pages/user-details/user-details';
 import { GithubUsers } from '../providers/github-users/github-users';
 
 @NgModule({
@@ -17,6 +18,7 @@ import { GithubUsers } from '../providers/github-users/github-users';
     MyApp,
     UsersPage,
     ReposPage,
+    UserDetailsPage,
     OrganisationsPage
   ],
   imports: [
@@ -29,6 +31,7 @@ import { GithubUsers } from '../providers/github-users/github-users';
     MyApp,
     UsersPage,
     ReposPage,
+    UserDetailsPage,
     OrganisationsPage
   ],
   providers: [
